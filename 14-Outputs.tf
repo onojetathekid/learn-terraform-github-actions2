@@ -1,8 +1,8 @@
 output "Global-IGW_name" {
-    value = aws_internet_gateway.igw.tags.Name
-#   value = aws_vpc.us-east-1a.arn  
-#   value = aws_vpc.us-east-1a.cidr_block
-#   value = aws_vpc.us-east-1a.tags.Name
+  value = aws_internet_gateway.igw.tags.Name
+  #   value = aws_vpc.us-east-1a.arn  
+  #   value = aws_vpc.us-east-1a.cidr_block
+  #   value = aws_vpc.us-east-1a.tags.Name
 }
 
 output "vpc-Name-1a" {
@@ -10,7 +10,7 @@ output "vpc-Name-1a" {
 }
 
 output "vpc-arn-1a" {
-  value = aws_vpc.us-east-1a.arn 
+  value = aws_vpc.us-east-1a.arn
 }
 
 output "vpc-CIDR-Block-1a" {
@@ -22,7 +22,7 @@ output "vpc-Name-1b" {
 }
 
 output "vpc-arn-1b" {
-  value = aws_vpc.us-east-1b.arn 
+  value = aws_vpc.us-east-1b.arn
 }
 
 output "vpc-CIDR-Block-1b" {
@@ -34,7 +34,7 @@ output "vpc-Name-1c" {
 }
 
 output "vpc-arn-1c" {
-  value = aws_vpc.us-east-1c.arn 
+  value = aws_vpc.us-east-1c.arn
 }
 
 output "vpc-CIDR-Block-1c" {
